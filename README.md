@@ -1,7 +1,7 @@
 # Wttr Forecast Widget
 for Übersicht `http://tracesof.net/uebersicht/`  
 Version: `0.1`  
-Last Updated: `10/24/2017`
+Last Updated: `10/25/2017`
 
 ![](https://user-images.githubusercontent.com/11707221/32011802-1f636834-b9b6-11e7-928c-1e80f25d3b74.png)
 
@@ -13,6 +13,12 @@ and allows you to access forecasts even when you are offline.
 
 ---
 
+## Features
+- [x] makes use of the DarkSky API with a global coverage of nearly any location
+- [x] allows you to add multiple location without adding more and more bloat to your screen
+- [x] displays not just the current weather situation but also the forecast for upcoming days
+- [x] all loaded weather forecasts get stored on the local machine so even your internet connection fails the Wttr widget still will display the last available information
+- [x] customizable so you can easily set your desired language, unit or color preferences
 
 ## HowTo:
 
@@ -28,7 +34,7 @@ The following steps will guide you through these steps:
 
 ### Settings:
 
-| Tables        | Are           |
+| Key        | Description           |
 | ------------- |:-------------|
 | `apiKey`      | add your personal DarkSky secret API key in order to download weather forecast information |
 | `uni`      | Return weather conditions in requested units: <ul><li>`auto`: automatically select units based on geographic location</li><li>`ca`: same as si</li><li>`uk2`: same as si</li><li>`us`: Imperial units</li><li>`si`: SI units (more: https://darksky.net/dev/docs)</li></ul>|
@@ -81,7 +87,7 @@ Based on the <a href="https://github.com/rabad/uebersicht-multiple-locations-wea
 
 Design-wise this widget is highly influenced by a beautiful <a href="https://dribbble.com/shots/1563616-SimpL-Weather-Widget-PSD">SimpL Weather Widget</a> crafted by the wonderfully talented <a href="https://twitter.com/zramos94">Zahir Ramos</a>. Definitely go and check out his work on <a href="https://dribbble.com/zramos">dribble</a>.
 
-The gorgeous [weather icons](https://github.com/erikflowers/weather-icons/) crafted by [Erik Flowers](http://www.helloerik.com/) can not just be used as stand alone icons but also as an easy to implement font. So in case you are wondering what else you could use to display the current weather situation I encourage you to check out the [project site](http://erikflowers.github.io/weather-icons/).
+The gorgeous [weather icons](https://github.com/erikflowers/weather-icons/) crafted by [Erik Flowers](http://www.helloerik.com/) can not just be used as standalone icons but also as an easy to implement font. So in case you are wondering what else you could use to display the current weather situation I encourage you to check out the [project site](http://erikflowers.github.io/weather-icons/).
 
 Of course credits, where credits belong - so thank you very much <a href="https://twitter.com/Felx">Felix</a> for creating and maintaining <a href="http://tracesof.net/uebersicht/">Übersicht</a> and therefore providing us with such a gorgeous tool to fulfill all our widget needs.
 
@@ -92,7 +98,7 @@ For questions, errors, improvements or just to talk about your daily life feel f
 [www.bastiankroggel.com](http://bastiankroggel.com)
 
 Social  | Link
-		--- | ---
+--- | ---
 Twitter  |  [@derKroggel](https://twitter.com/derKroggel)
 Github  |  [bkroggel](www.github.com/bkroggel)
 

@@ -1,7 +1,7 @@
 # ----------
 # Wttr Forecast WIDGET for Übersicht
 # Version: 0.1
-# Last Updated: 10/24/2017
+# Last Updated: 10/25/2017
 #
 # Wttr Forecast is a multi-location weather widget build
 # for Übersicht app (http://tracesof.net/uebersicht/).
@@ -510,16 +510,19 @@ render: (o) -> """
           </div>
           <div>
             <p>
-              Based on the <a href="https://github.com/rabad/uebersicht-multiple-locations-weather">Multiple Locations Weather widget</a> by <a href="https://github.com/rabad">Rubén Abad</a>. While major parts of this widget were rewritten it still makes use of the original data access as well as parse functions.
+              Based on the <a href="https://github.com/rabad/uebersicht-multiple-locations-weather">Multiple Locations Weather widget</a> by <a href="https://github.com/rabad">Rubén Abad</a>. While major parts of this widget were rewritten it still makes use of the original data access and parse functions.
             </p>
             <p>
-              Designwise this widget is highly influenced by a beautiful <a href="https://dribbble.com/shots/1563616-SimpL-Weather-Widget-PSD">SimpL Weather Widget</a> crafted by the wonderfully talented <a href="https://twitter.com/zramos94">Zahir Ramos</a>. Definitely go and check out his work on <a href="https://dribbble.com/zramos">dribble</a>.
+              Design-wise this widget is highly influenced by <a href="https://dribbble.com/shots/1563616-SimpL-Weather-Widget-PSD">a dribble shot</a> of the wonderfully talented <a href="https://twitter.com/zramos94">Zahir Ramos</a>.
             </p>
             <p>
-              Of course credits, where credits belong - so thank you very much <a href="https://twitter.com/Felx">Felix</a> for creating and maintaining <a href="http://tracesof.net/uebersicht/">Übersicht</a> and therefore providing us with such a gorgeous tool to fullfill all our widget needs.
+              The gorgeous <a href="http://erikflowers.github.io/weather-icons/">weather icons</a> are crafted by <a href="http://www.helloerik.com/">Erik Flowers</a> and can not just be used as standalone icons but also as an easy to implement font.
             </p>
             <p>
-              For questions, errors, improvements or just to talk about your daily life feel free to get in touch with me or checkout the Readme with additional information on <a href="https://beta.bastiankroggel.com">Github</a>.
+              Of course credits, where credits belong - so thank you very much <a href="https://twitter.com/Felx">Felix</a> for creating and maintaining <a href="http://tracesof.net/uebersicht/">Übersicht</a>.
+            </p>
+            <p>
+              In case of questions, errors or suggestions for an improvement feel free to get in touch with me and of course checkout the Readme on <a href="https://github.com/bkroggel/wttr/blob/master/README.md">Github</a>.
             </p>
             <p>
               &copy; 2017 - Bastian Kroggel
