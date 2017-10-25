@@ -3,7 +3,7 @@
 # Version: 0.1
 # Last Updated: 10/24/2017
 #
-# Wttr Forecast is a multi-location weather widget build to use as a plug-in
+# Wttr Forecast is a multi-location weather widget build
 # for Übersicht app (http://tracesof.net/uebersicht/).
 # Wttr Forecast stores all weather information locally on your device
 # and allows you to access forecasts even when you are offline.
@@ -55,7 +55,7 @@
 #
 #           all in all the 'location:' section will look like the following:
 #
-#             location: <-- do not remove this part
+#             location: #<-- do not remove this part
 #               lnd:
 #                 name: 'London, GB'
 #                 lat: 51.5287718
@@ -63,7 +63,7 @@
 #
 #           every other location can be added just like that:
 #
-#             location: <-- do not remove this part
+#             location: #<-- do not remove this part
 #               lnd:
 #                 name: 'London, GB'
 #                 lat: 51.5287718
@@ -78,7 +78,7 @@
 
 apiKey: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 units: 'si'
-language: 'de'
+language: 'en'
 accent: 'rgba(0, 91, 255, 0.6)'
 refreshFrequency: (1000 * 60) * 30
 refresh_button: false
@@ -92,6 +92,10 @@ locations:
     name: 'London, GB'
     lat: 51.5287718
     lng: -0.2416814
+  nyc:
+    name: 'New York City, NY'
+    lat: 40.6976701
+    lng: -74.2598661
 
 # ------------------------
 # -----  Code below  -----
@@ -99,13 +103,13 @@ locations:
 
 style: """
   right: 8px;
-  top: 195px;
+  top: 200px;
 
   #wttr {
     background: rgba(255, 255, 255, .5);
     width: 300px;
     border-radius: 7px;
-    border: 1px solid rgba(0,0,0, 0.7);
+    //border: 1px solid rgba(0,0,0,0.2);
     box-shadow: 0 0 20px 0 rgba(0,0,0, 0.4);
     -webkit-backdrop-filter: blur(5px);
     display: flex;
