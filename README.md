@@ -101,10 +101,10 @@ For questions, errors, improvements or just to talk about your daily life feel f
 ---
 [www.bastiankroggel.com](http://bastiankroggel.com)
 
-Social  | Link
---- | ---
-Twitter  |  [@derKroggel](https://twitter.com/derKroggel)
-Github  |  [bkroggel](www.github.com/bkroggel)
+| Social | Link |
+|:--- |:--- |
+|Twitter  |  [@derKroggel](https://twitter.com/derKroggel) |
+|Github  |  [bkroggel](www.github.com/bkroggel) |
 
 
 © 2017 | Bastian Kroggel
