@@ -20,6 +20,10 @@ and allows you to access forecasts even when you are offline.
 - [x] all loaded weather forecasts get stored on the local machine so even your internet connection fails the Wttr widget still will display the last available information
 - [x] customizable so you can easily set your desired language, unit or color preferences
 
+**Important information:**   
+In order to use the arrows or navigation dots to switch between your different locations you need to choose an `interaction shortcut` in the Übersicht preferences.
+
+
 ## HowTo:
 
 <img src="https://user-images.githubusercontent.com/11707221/32011803-1f895530-b9b6-11e7-8154-f07e6379e314.png" width="450px"></img>
