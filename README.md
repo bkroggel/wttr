@@ -5,9 +5,6 @@ Last Updated: `10/24/2017`
 
 ![](https://user-images.githubusercontent.com/11707221/32011802-1f636834-b9b6-11e7-928c-1e80f25d3b74.png)
 
-<img src="https://user-images.githubusercontent.com/11707221/32011803-1f895530-b9b6-11e7-8154-f07e6379e314.png" style="width:48%; float: left"></img>
-<img src="https://user-images.githubusercontent.com/11707221/32011804-1faa8e6c-b9b6-11e7-809c-601e09618329.png" style="width:48%; margin-left: 4%"></img>
-
 
 Wttr Forecast is a multi-location weather widget build
 for [Übersicht](http://tracesof.net/uebersicht/) (MacOS).
@@ -18,6 +15,8 @@ and allows you to access forecasts even when you are offline.
 
 
 ## HowTo:
+
+<img src="https://user-images.githubusercontent.com/11707221/32011803-1f895530-b9b6-11e7-8154-f07e6379e314.png" width="450px"></img>
 
 In order to set up the widget properly you need to add the DarkSky API (forecasting provider) by yourself.
 The following steps will guide you through these steps:
@@ -75,6 +74,8 @@ every other location can be added just like that:
         lng: 2.2770202
 
 ## Credits
+
+<img src="https://user-images.githubusercontent.com/11707221/32011804-1faa8e6c-b9b6-11e7-809c-601e09618329.png" style="width:450px"></img>
 
 Based on the <a href="https://github.com/rabad/uebersicht-multiple-locations-weather">Multiple Locations Weather widget</a> by <a href="https://github.com/rabad">Rubén Abad</a>. While major parts of this widget were rewritten it still makes use of the original data access as well as parse functions.
 
