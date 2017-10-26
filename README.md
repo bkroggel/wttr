@@ -17,7 +17,7 @@ and allows you to access forecasts even when you are offline.
 - [x] makes use of the DarkSky API with a global coverage of nearly any location
 - [x] allows you to add multiple location without adding more and more bloat to your screen
 - [x] displays not just the current weather situation but also the forecast for upcoming days
-- [x] all loaded weather forecasts get stored on the local machine so even your internet connection fails the Wttr widget still will display the last available information
+- [x] loaded weather forecast gets stored on the local machine so even if your internet connection fails the Wttr widget will still display the last available information
 - [x] customizable so you can easily set your desired language, unit or color preferences
 
 **Important information:**   
@@ -93,9 +93,9 @@ Design-wise this widget is highly influenced by a beautiful <a href="https://dri
 
 The gorgeous [weather icons](https://github.com/erikflowers/weather-icons/) crafted by [Erik Flowers](http://www.helloerik.com/) can not just be used as standalone icons but also as an easy to implement font. So in case you are wondering what else you could use to display the current weather situation I encourage you to check out the [project site](http://erikflowers.github.io/weather-icons/).
 
-Of course credits, where credits belong - so thank you very much <a href="https://twitter.com/Felx">Felix</a> for creating and maintaining <a href="http://tracesof.net/uebersicht/">Übersicht</a> and therefore providing us with such a gorgeous tool to fulfill all our widget needs.
+Of course credits, where credits belong - so thank you very much <a href="https://twitter.com/Felx">Felix</a> for creating and maintaining <a href="http://tracesof.net/uebersicht/">Übersicht</a>.
 
-For questions, errors, improvements or just to talk about your daily life feel free to get in touch with me or create a pull request and implement your needed functionality.
+In case of questions, errors, suggestions for an improvement or just to talk about your daily life feel free to get in touch with me or create a pull request and implement your needed functionality.
 
 
 ---

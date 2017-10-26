@@ -45,7 +45,8 @@
 #                            visibility are in miles and windSpeed is in miles per hour
 #                     | us: Imperial units
 #                     | si: SI units (more: https://darksky.net/dev/docs)
-# - language          | desired language in which summarys will get display (more: https://darksky.net/dev/docs)
+# - language          | desired language in which summarys will get display
+#                     | (more: https://darksky.net/dev/docs)
 # - accent            | accent color
 # - refreshFrequency  | sets refresh rate of widget, change value outside of brackets to modify
 #                     | number of minutes before freshly updated weather forecasting information appearance
@@ -527,7 +528,7 @@ render: (o) -> """
               Based on the <a href="https://github.com/rabad/uebersicht-multiple-locations-weather">Multiple Locations Weather widget</a> by <a href="https://github.com/rabad">Rubén Abad</a>. While major parts of this widget were rewritten it still makes use of the original data access and parse functions.
             </p>
             <p>
-              Design-wise this widget is highly influenced by <a href="https://dribbble.com/shots/1563616-SimpL-Weather-Widget-PSD">a dribble shot</a> of the wonderfully talented <a href="https://twitter.com/zramos94">Zahir Ramos</a>.
+              Design-wise this widget is highly influenced by <a href="https://dribbble.com/shots/1563616-SimpL-Weather-Widget-PSD">a dribble shot</a> by the wonderfully talented <a href="https://twitter.com/zramos94">Zahir Ramos</a>.
             </p>
             <p>
               The gorgeous <a href="http://erikflowers.github.io/weather-icons/">weather icons</a> are crafted by <a href="http://www.helloerik.com/">Erik Flowers</a> and can not just be used as standalone icons but also as an easy to implement font.
