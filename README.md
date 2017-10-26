@@ -1,7 +1,7 @@
 # Wttr Forecast Widget
 for Übersicht `http://tracesof.net/uebersicht/`  
-Version: `0.1`  
-Last Updated: `10/25/2017`
+Version: `1.0`  
+Last Updated: `10/26/2017`
 
 ![](https://user-images.githubusercontent.com/11707221/32011802-1f636834-b9b6-11e7-928c-1e80f25d3b74.png)
 
@@ -14,6 +14,9 @@ and allows you to access forecasts even when you are offline.
 ---
 
 ## Features
+
+<img src="https://user-images.githubusercontent.com/11707221/32046767-3b04baa0-ba44-11e7-9bde-6153cb50e363.gif" width="250px"></img>
+
 - [x] makes use of the DarkSky API with a global coverage of nearly any location
 - [x] allows you to add multiple location without adding more and more bloat to your screen
 - [x] displays not just the current weather situation but also the forecast for upcoming days
