@@ -1,7 +1,7 @@
 # ----------
 # Wttr Forecast WIDGET for Übersicht
-# Version: 1.0
-# Last Updated: 10/26/2017
+# Version: 1.0.1
+# Last Updated: 12/27/2017
 #
 # Wttr Forecast is a multi-location weather widget build
 # for Übersicht app (http://tracesof.net/uebersicht/).
@@ -496,12 +496,12 @@ style: """
     }
     .rain-img {
       display: flex;
-      justify-content: center;
       margin-right: 8px;
     }
     .rain-img img {
       width: 7px;
       opacity: 0.3;
+      align-self: center;
     }
   }
 """

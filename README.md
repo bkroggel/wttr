@@ -1,7 +1,7 @@
 # Wttr Forecast Widget
 for Übersicht `http://tracesof.net/uebersicht/`  
-Version: `1.0`  
-Last Updated: `10/26/2017`
+Version: `1.0.1`  
+Last Updated: `12/27/2017`
 
 ![](https://user-images.githubusercontent.com/11707221/32011802-1f636834-b9b6-11e7-928c-1e80f25d3b74.png)
 
@@ -85,6 +85,11 @@ every other location can be added just like that:
         name: 'Paris, FR'
         lat: 48.8589507
         lng: 2.2770202
+
+## Version History
+- `1.0` - Initial Release
+- `1.0.1` - Fixed a bug present on macOS High Sierra (thanks [@_martinc](https://twitter.com/_martinc))
+
 
 ## Credits
 
